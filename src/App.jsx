@@ -9,6 +9,9 @@ function App() {
   return (
     <>
       <div>
+        <div className="background">
+          <h1>Hello with a Background!</h1>
+        </div>
         <a href="https://youtu.be/lCAVcUQY83c?si=AhZBpGnAnSKdWpG7" target="_blank">
           <img src={angle} className="logo" alt="Angle" />
         </a>
