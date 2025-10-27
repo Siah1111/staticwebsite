@@ -10,7 +10,7 @@ function App() {
     <>
     <div className="background">
       <div>
-        
+        <h1></h1>
         <a href="https://youtu.be/lCAVcUQY83c?si=AhZBpGnAnSKdWpG7" target="_blank">
           <img src={angle} className="logo" alt="Angle" />
         </a>
@@ -18,13 +18,11 @@ function App() {
           <img src={devil} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>\nI could be your angle or your devil</h1>
-      <p className="read-the-docs">
-        A simple website by Josiah Naisbitt.\n
-        CSCE 3420.401 | 10/26/2025\n
-        \n
-        /!\ Any mispellings are intentional for comedic value and personal amusement /!\
-      </p>
+      <h1>I could be your angle or your devil</h1>
+        <p>A simple website by Josiah Naisbitt.</p>
+        <p>CSCE 3420.401 | 10/26/2025</p>
+        <p></p>
+        <p>/!\ Any mispellings are intentional for comedic value and personal amusement /!\</p>
     </div>
     </>
   )
